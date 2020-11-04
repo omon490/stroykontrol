@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>43-dars. Sass. Mashq</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container site-header__container">
+      <a class="site-header__logo-link" href="#">
+        <img class="site-header__logo-img" src="img/logo.svg" alt="site logo" width="263" height="44">
+      </a>
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item sitenav__item--active">
+              <a class="sitenav__item-link" href="#">Главная</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__item-link" href="#">О нас</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__item-link" href="#">Продукция</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__item-link" href="#">Процесс</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__item-link" href="#">Надёжность</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__item-link" href="#">Клиенты</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__item-link" href="#">Связаться с нами</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button button--dark" href="#">Заказать демо</button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- ABOUT-SECTION -->
+    <section class="about">
+      <div class="container">
+        <h2 class="about__heading">Что такое СтройКонтроль?</h2>
+        <p class="about__text">СтройКонтроль - это интеллектуальная система управления доставкой, предоставляющая информацию и контроль материалов на сложных строительных площадках в режиме реального времени.</p>
+
+
+        <ul class="about__list">
+          <li class="about__list-item about-info about-info--tracking">
+            <div class="about-info__inner">
+              <h3 class="about-info__heading">Отслеживайте доставку по всей цепочке поставок</h3>
+              <p class="about-info__description">От поставщика до субподрядчика - вы всегда знаете, где находятся ваши материалы, благодаря чему обычные отходы уходят в прошлое и сокращаются несчастные случаи на месте.</p>
+            </div>
+          </li>
+
+          <li class="about__list-item about-info about-info--optimization">
+            <div class="about-info__inner">
+              <h3 class="about-info__heading">Оптимизируйте и контролируйте свое прибытие на место</h3>
+              <p class="about-info__description">Транспортные средства доставки прибывают в фиксированные промежутки времени в заранее назначенные отсеки, где разгрузочное оборудование готово и ждет их.</p>
+            </div>
+          </li>
+
+          <li class="about__list-item about-info about-info--realtime">
+            <div class="about-info__inner">
+              <h3 class="about-info__heading">Возьмите под контроль данные в режиме реального времени</h3>
+              <p class="about-info__description">Интеллектуальная отчетность дает вам возможность принимать решения в зависимости от того, как обстоят дела в данный момент. Больше никаких ручных отчетов по заливке бетона или ежемесячной проверки 10.000 накладных со счетами, все это доступно онлайн без каких-либо усилий.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="delivery-section">
+      <div class="container">
+        <h2 class="delivery-section__heading">Доставка стала проще</h2>
+        <p class="delivery-section__text">Мы позаботимся обо всех ваших различных поставках и их многочисленных специализированных требованиях к разгрузке.</p>
+        <ul class="delivery-section__list">
+          <li class="delivery-section__item delivery-item delivery-item--beton">
+            <div class="delivery-item__wrapper">
+              <h3 class="delivery-item__heading">Бетон</h3>
+              <p class="delivery-item__text">Поставки бетона точно планируются, а его состояние контролируется, что обеспечивает максимально возможное время для установки.</p>
+            </div>
+          </li>
+
+          <li class="delivery-section__item delivery-item delivery-item--utilization">
+            <div class="delivery-item__wrapper">
+              <h3 class="delivery-item__heading">Утилизация отходов</h3>
+              <p class="delivery-item__text">Отходы контролируются и сортируются, а заполненность контейнеров отслеживается в цифровом виде.</p>
+            </div>
+          </li>
+
+          <li class="delivery-section__item delivery-item delivery-item--mold">
+            <div class="delivery-item__wrapper">
+              <h3 class="delivery-item__heading">Опалубка</h3>
+              <p class="delivery-item__text">Вся опалубка отслеживается от прибытия до отправления, а ее состояние контролируется, что сводит к минимуму потери и повреждения.</p>
+            </div>
+          </li>
+
+          <li class="delivery-section__item delivery-item delivery-item--panel">
+            <div class="delivery-item__wrapper">
+              <h3 class="delivery-item__heading">Сборные панели</h3>
+              <p class="delivery-item__text">Сборные панели прибывают по очереди, их хранение на месте отслеживается, а их установка планируется и контролируется.</p>
+            </div>
+          </li>
+
+          <li class="delivery-section__item delivery-item delivery-item--fasad">
+            <div class="delivery-item__wrapper">
+              <h3 class="delivery-item__heading">Фасады</h3>
+              <p class="delivery-item__text">Элементы фасада поступают последовательно, их сборка контролируется, а перемещение отслеживается.</p>
+            </div>
+          </li>
+
+          <li class="delivery-section__item delivery-item delivery-item--section">
+            <div class="delivery-item__wrapper">
+              <h3 class="delivery-item__heading">Отделка</h3>
+              <p class="delivery-item__text">Материалы поступают точно в срок, маркируются и детально отслеживаются для установки.</p>
+            </div>
+          </li>
+
+          <li class="delivery-section__item delivery-item delivery-item--stair">
+            <div class="delivery-item__wrapper">
+              <h3 class="delivery-item__heading">Строительные леса</h3>
+              <p class="delivery-item__text">Строительные леса отслеживаются от получения до хранения, использования и возврата, поэтому всегда ясно, что на месте и где.</p>
+            </div>
+          </li>
+
+          <li class="delivery-section__item delivery-item delivery-item--equipment">
+            <div class="delivery-item__wrapper">
+              <h3 class="delivery-item__heading">Оборудование</h3>
+              <p class="delivery-item__text">Оборудование и операторы гарантированно доступны в случае необходимости, а их рабочее состояние отслеживается.</p>
+            </div>
+          </li>
+
+          <li class="delivery-section__item delivery-item delivery-item--electrical">
+            <div class="delivery-item__wrapper">
+              <h3 class="delivery-item__heading">Электрика и сантехника</h3>
+              <p class="delivery-item__text">Доставка осуществляется в точной последовательности для сложной установки, что сокращает или устраняет необходимость в хранении.</p>
+            </div>
+          </li>
+        </ul>
+        <p class="delivery-section__bottom-text">...
+          <span class="delivery-section__bottom-text--span">и все остальные материалы,</span> которые поступают или покидают вашу площадку</p>
+      </div>
+    </section>
+
+    <section class="reliability-section">
+      <div class="container">
+        <h2 class="reliability-section__heading">Надёжность</h2>
+        <p class="reliability-section__text">Благодаря надёжному строительству выигрывают все - муниципальные органы выполняют свои обязанности перед гражданами, инвесторы получают сертификаты своих проектов, а генеральные подрядчики получают повышенную репутацию.</p>
+        <ul class="reliability-section__list">
+          <li class="reliability-section__item reliability reliability--reduced">
+            <h3 class="reliability__heading">Сниженное загрязнение</h3>
+            <p class="reliability__text">При оптимизации логистики требуется меньше поездок, что приводит к снижению выбросов CO2. Выбрасываемый CO2 контролируется, что позволяет ставить цели и вносить ощутимые улучшения.</p>
+          </li>
+
+          <li class="reliability-section__item reliability reliability--improved-management">
+            <h3 class="reliability__heading">Улучшенное управление отходами</h3>
+            <p class="reliability__text">Упрощается сортировка отходов, автоматизируется утилизация отходов, а поврежденные материалы при необходимости используются повторно, что снижает затраты и стимулирует переработку и повторное использование.</p>
+          </li>
+
+          <li class="reliability-section__item reliability reliability--improved-society">
+            <h3 class="reliability__heading">Улучшенное влияние на общество</h3>
+            <p class="reliability__text">Уменьшаются проблемы с дорожным движением и шумовое загрязнение, что улучшает жизнь местного сообщества. Улучшенное обращение с материалами и хранение означает, что рабочие также лучше защищены.</p>
+          </li>
+        </ul>
+        <div class="reliability-section__bottom-wrapper">
+          <p class="reliability-section__bottom-text">Надёжная конструкция СтройКонтроль входит в стандартную комплектацию.</p>
+          <button class="button button--light">Подробнее</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>

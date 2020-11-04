@@ -1,0 +1,128 @@
+.reliability-section {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.reliability-section__heading {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  margin-bottom: 17px;
+  color: $heading-color;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+
+  &::before{
+    position: absolute;
+    z-index: 1;
+    bottom: 53%;
+    left: calc(50% + 85px);
+    content: "";
+    width: 42px;
+    height: 41px;
+    display: block;
+    background-image: url("../../img/leaf.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+.reliability-section__text {
+  max-width: 857px;
+  margin: 0;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.reliability-section__list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 62px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reliability-section__item {
+  max-width: 332px;
+}
+
+.reliability-section__bottom-wrapper {
+  padding: 45px 40px 40px 40px;
+  background: #F6F8F9;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reliability-section__bottom-text {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: $heading-color;
+
+  &::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-right: 24px;
+    background-image: url("../../img/reliable-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .reliability-section__list {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .reliability-section__item {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .reliability-section__list {
+   justify-content: center;
+  }
+
+  .reliability-section__item {
+    max-width: 500px;
+    margin-bottom: 60px;
+  }
+
+  .reliability-section__bottom-wrapper {
+    padding: 25px 20px 20px 20px;
+  }
+
+  .reliability-section__bottom-text {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    color: $heading-color;
+
+    &::before{
+      content: "";
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

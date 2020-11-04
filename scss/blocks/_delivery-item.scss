@@ -1,0 +1,97 @@
+
+.delivery-item {
+  display: flex;
+
+  &::before{
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-right: 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    flex-shrink: 0;
+  }
+}
+
+.delivery-item__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.delivery-item__heading {
+  margin: 0;
+  margin-bottom: 11px;
+  font-weight: normal;
+  color: $heading-color;
+}
+
+.delivery-item__text {
+  color: $text-color;
+}
+
+.delivery-item--beton::before{
+  background-image: url("../img/kamaz.svg");
+}
+
+.delivery-item--utilization::before {
+  background-image: url("../img/utilization.svg");
+}
+
+.delivery-item--mold::before {
+  background-image: url("../img/mold.svg");
+}
+
+.delivery-item--panel::before {
+  background-image: url("../img/panel.svg");
+}
+
+.delivery-item--fasad::before {
+  background-image: url("../img/fasad.svg");
+}
+
+.delivery-item--section::before {
+  background-image: url("../img/section.svg");
+}
+
+.delivery-item--stair::before {
+  background-image: url("../img/stair.svg");
+}
+
+.delivery-item--equipment::before {
+  background-image: url("../img/equipment.svg");
+}
+
+.delivery-item--electrical::before {
+  background-image: url("../img/electrical.svg");
+}
+
+@media only screen and (max-width: 750px){
+
+  .delivery-item__wrapper{
+    justify-content: center;
+  }
+
+  .delivery-item__heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .delivery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::before{
+      margin-bottom: 20px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+    .delivery-item__text {
+      text-align: center;
+    }
+  }

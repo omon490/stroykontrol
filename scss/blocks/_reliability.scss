@@ -1,0 +1,84 @@
+
+.reliability {
+  &::before{
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+.reliability__heading {
+  margin: 0;
+  margin-bottom: 11px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  color: $heading-color;
+}
+
+.reliability__text {
+  margin: 0;
+  text-align: center;
+  line-height: 24px;
+  color: $text-color;
+}
+
+.reliability--reduced::before {
+  background-image: url("../../img/co2.svg");
+}
+
+.reliability--improved-management {
+  max-width: 333px;
+
+  &::before{
+    background-image: url("../../img/improved-management.svg");
+  }
+}
+
+.reliability--improved-society {
+  max-width: 325px;
+
+  &::before{
+    background-image: url("../../img/improved-society.svg");
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .reliability--improved-management {
+    max-width: 500px;
+  }
+
+  .reliability--improved-society {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .reliability__heading {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .reliability {
+    &::before{
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  .reliability--improved-management {
+    max-width: 500px;
+  }
+
+  .reliability--improved-society {
+    max-width: 500px;
+  }
+}
