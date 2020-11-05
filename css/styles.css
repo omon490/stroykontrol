@@ -1007,7 +1007,7 @@ img {
   width: 42px;
   height: 41px;
   display: block;
-  background-image: url("../../img/leaf.svg");
+  background-image: url("../img/leaf.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1077,7 +1077,7 @@ img {
   height: 40px;
   display: block;
   margin-right: 24px;
-  background-image: url("../../img/reliable-icon.svg");
+  background-image: url("../img/reliable-icon.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1158,7 +1158,7 @@ img {
 }
 
 .reliability--reduced::before {
-  background-image: url("../../img/co2.svg");
+  background-image: url("../img/co2.svg");
 }
 
 .reliability--improved-management {
@@ -1166,7 +1166,7 @@ img {
 }
 
 .reliability--improved-management::before {
-  background-image: url("../../img/improved-management.svg");
+  background-image: url("../img/improved-management.svg");
 }
 
 .reliability--improved-society {
@@ -1174,7 +1174,7 @@ img {
 }
 
 .reliability--improved-society::before {
-  background-image: url("../../img/improved-society.svg");
+  background-image: url("../img/improved-society.svg");
 }
 
 @media only screen and (max-width: 750px) {
@@ -1206,7 +1206,7 @@ img {
 .features-section {
   padding: 143px 0 118px 0;
   background-color: #212B31;
-  background-image: url("../../img/features-bg/features-bg.png");
+  background-image: url("../img/features-bg/features-bg.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 455px) 150px;
   background-size: auto 493px;
@@ -1333,15 +1333,15 @@ img {
 }
 
 .feature-bottom--subcontractor::before {
-  background-image: url("../../img/subcontractor.svg");
+  background-image: url("../img/subcontractor.svg");
 }
 
 .feature-bottom--involved::before {
-  background-image: url("../../img/involved.svg");
+  background-image: url("../img/involved.svg");
 }
 
 .feature-bottom--compliance::before {
-  background-image: url("../../img/compliance.svg");
+  background-image: url("../img/compliance.svg");
 }
 
 .transactions-section {
@@ -1533,7 +1533,7 @@ img {
   width: 104px;
   height: 80px;
   display: block;
-  background-image: url("../../img/catch-sign/catch-sign.png");
+  background-image: url("../img/catch-sign/catch-sign.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1564,7 +1564,7 @@ img {
   display: block;
   margin-right: 8px;
   border-radius: 50%;
-  background-image: url("../../img/capacity-bg/capacity-bg.jpg");
+  background-image: url("../img/capacity-bg/capacity-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1658,19 +1658,19 @@ img {
 }
 
 .capacity--award::before {
-  background-image: url("../../img/award.svg");
+  background-image: url("../img/award.svg");
 }
 
 .capacity--potential::before {
-  background-image: url("../../img/potential.svg");
+  background-image: url("../img/potential.svg");
 }
 
 .capacity--leaders::before {
-  background-image: url("../../img/leaders.svg");
+  background-image: url("../img/leaders.svg");
 }
 
 .capacity--security::before {
-  background-image: url("../../img/security.svg");
+  background-image: url("../img/security.svg");
 }
 
 .capacity__logos-list {
@@ -1740,7 +1740,7 @@ img {
 
 .optimize__wrapper {
   padding: 117px 38px;
-  background-image: url("../../img/optimize-bg/optimize-bg.png");
+  background-image: url("../img/optimize-bg/optimize-bg.png");
   background-repeat: no-repeat;
   background-position: top center;
   border-radius: 6px;

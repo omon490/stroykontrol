@@ -32,14 +32,14 @@
 }
 
 .reliability--reduced::before {
-  background-image: url("../../img/co2.svg");
+  background-image: url("../img/co2.svg");
 }
 
 .reliability--improved-management {
   max-width: 333px;
 
   &::before{
-    background-image: url("../../img/improved-management.svg");
+    background-image: url("../img/improved-management.svg");
   }
 }
 
@@ -47,7 +47,7 @@
   max-width: 325px;
 
   &::before{
-    background-image: url("../../img/improved-society.svg");
+    background-image: url("../img/improved-society.svg");
   }
 }
 
