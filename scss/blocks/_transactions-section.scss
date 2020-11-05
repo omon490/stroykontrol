@@ -1,0 +1,50 @@
+.transactions-section {
+  padding-top: 145px;
+  padding-bottom: 96px;
+}
+
+.transactions-section__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.transactions-section__left-wrapper {
+  max-width: 462px;
+}
+
+.transactions-section__left-heading {
+  margin: 0;
+  margin-bottom: 21px;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: $heading-color;
+}
+
+.transactions-section__left-text {
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.transactions-section__left-img {
+  display: block;
+  max-width: 336px;
+  max-width: 392px;
+}
+
+.transactions-section__right-wrapper {
+  max-width: 520px;
+}
+
+.transactions-section__right-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.transactions-section__right-item {
+  margin-bottom: 30px;
+}

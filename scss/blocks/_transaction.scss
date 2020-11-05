@@ -1,0 +1,59 @@
+.transaction {
+  display: flex;
+  align-items: flex-start;
+
+  &::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 32px;
+    text-align: center;
+    color: $text-color;
+    border: 1px solid #DADEDF;
+  }
+}
+
+.transaction__wrapper {
+  max-width: 448px;
+}
+
+.transaction__heading {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: $heading-color;
+}
+
+.transaction__text {
+  margin: 0;
+  line-height: 24px;
+}
+
+.transaction--first {
+  &::before{
+    content: "1";
+  }
+}
+
+.transaction--second {
+  &::before{
+    content: "2";
+  }
+}
+
+.transaction--third {
+  &::before{
+    content: "3";
+  }
+}
+
+.transaction--forth {
+  &::before{
+    content: "4";
+  }
+}

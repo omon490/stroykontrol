@@ -1,0 +1,141 @@
+.capacity-section {
+  padding-bottom: 150px;
+}
+
+.capacity-section__heading {
+  margin: 0;
+  margin-bottom: 17px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: $heading-color;
+}
+
+.capacity-section__text {
+  max-width: 681px;
+  margin: 0;
+  margin-bottom: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 32px;
+  color: $heading-color;
+}
+
+.capacity-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 127px;
+}
+
+.capacity-section__left-wrapper {
+  max-width: 460px;
+}
+
+.capacity-section__left-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.capacity-section__left-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.capacity-section__right-wrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 614px;
+  padding: 60px 92px 56px 87px;
+  background-color: #F6F8F9;
+  border-radius: 5px;
+
+  &::before{
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 45px;
+    content: "";
+    width: 104px;
+    height: 80px;
+    display: block;
+    background-image: url("../../img/catch-sign/catch-sign.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+  }
+}
+
+.capacity-section__right-text {
+  margin: 0;
+  margin-bottom: 28px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 48px;
+  color: $heading-color;
+}
+
+.capacity-section__box{
+  display: flex;
+  align-items: center;
+  &::before{
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-image: url("../../img/capacity-bg/capacity-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+.capacity-section__inner {
+  max-width: 331px;
+}
+
+.capacity-section__inner-name {
+  margin: 0;
+  margin-bottom: 2px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: $heading-color;
+}
+
+.capacity-section__inner-job {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: $text-color;
+}
+
+.capacity-section__inner-list {
+  padding: 0;
+  margin: 0;
+  margin-top: 28px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.capacity-section__inner-item {
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.capacity-section__inner-item:nth-child(1){
+  background-color: #036FC7;
+}
+
+.capacity-section__inner-item:nth-child(2){
+  background-color: rgba(3, 111, 199, 0.2);
+}
