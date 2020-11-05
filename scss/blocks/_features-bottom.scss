@@ -1,0 +1,50 @@
+.feature-bottom{
+  &::before{
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+.feature-bottom__heading {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: $link-color;
+}
+
+.feature-bottom__text {
+  margin: 0;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.feature-bottom--subcontractor{
+  &::before{
+    background-image: url("../../img/subcontractor.svg");
+  }
+}
+
+.feature-bottom--involved{
+  &::before{
+    background-image: url("../../img/involved.svg");
+  }
+}
+
+.feature-bottom--compliance{
+  &::before{
+    background-image: url("../../img/compliance.svg");
+  }
+}

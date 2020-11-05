@@ -418,10 +418,12 @@ img {
   border: 1px solid transparent;
   border-radius: 4px;
   white-space: nowrap;
+  font-family: "Inter", "Arial", sans-serif;
   color: #fff;
 }
 
 .button--dark {
+  padding: 13px 25px;
   background-color: #212B31;
   border: 1px solid #212B31;
   -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
@@ -434,6 +436,7 @@ img {
 }
 
 .button--light {
+  padding: 13px 25px;
   background-color: #fff;
   border: 1px solid #DADEDF;
   color: #212B31;
@@ -444,10 +447,26 @@ img {
   color: #fff;
 }
 
+.button--light-feature {
+  margin-right: 16px;
+}
+
+.button--outline {
+  padding: 12px 24px;
+  background-color: #212B31;
+  border: 1px solid #DADEDF;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+}
+
 @media only screen and (max-width: 660px) {
   .button {
     margin-left: auto;
     margin-right: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1041,6 +1060,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1180,5 +1201,146 @@ img {
   .reliability--improved-society {
     max-width: 500px;
   }
+}
+
+.features-section {
+  padding: 143px 0 118px 0;
+  background-color: #212B31;
+  background-image: url("../../img/features-bg/features-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 455px) 150px;
+  background-size: auto 493px;
+}
+
+.features-section__heading {
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 48px;
+  color: #fff;
+}
+
+.features-section__top-list {
+  max-width: 650px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+
+.features-section__item {
+  margin-bottom: 24px;
+}
+
+.features-section__bottom-list {
+  padding: 0;
+  margin: 0;
+  margin-top: 127px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.features-section__bottom-item {
+  max-width: 340px;
+}
+
+.features-section__bottom-item:not(:last-child) {
+  margin-right: 18px;
+}
+
+.feature-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.feature-top::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+  margin-top: 5px;
+  margin-right: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.feature-top__wrapper {
+  max-width: 550px;
+}
+
+.feature-top__heading {
+  margin: 0;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.feature-top__text {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.feature-bottom::before {
+  content: "";
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.feature-bottom__heading {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.feature-bottom__text {
+  margin: 0;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.feature-bottom--subcontractor::before {
+  background-image: url("../../img/subcontractor.svg");
+}
+
+.feature-bottom--involved::before {
+  background-image: url("../../img/involved.svg");
+}
+
+.feature-bottom--compliance::before {
+  background-image: url("../../img/compliance.svg");
 }
 /*# sourceMappingURL=styles.css.map */
