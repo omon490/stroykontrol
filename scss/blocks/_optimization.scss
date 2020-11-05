@@ -1,0 +1,32 @@
+
+.optimize-section {
+  padding-bottom: 150px;
+}
+
+.optimize__wrapper {
+  padding: 117px 38px;
+  background-image: url("../../img/optimize-bg/optimize-bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-radius: 6px;
+}
+
+.optimize__heading {
+  max-width: 980px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 54px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  color: $heading-color;
+}
+
+.optimize__link-wrapper {
+  max-width: 390px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
