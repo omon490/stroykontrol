@@ -3,7 +3,7 @@
   padding-bottom: 150px;
 }
 
-.optimize__wrapper {
+.optimize-section__wrapper {
   padding: 117px 38px;
   background-image: url("../img/optimize-bg/optimize-bg.png");
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
   border-radius: 6px;
 }
 
-.optimize__heading {
+.optimize-section__heading {
   max-width: 980px;
   margin: 0;
   margin-left: auto;
@@ -24,7 +24,7 @@
   color: $heading-color;
 }
 
-.optimize__link-wrapper {
+.optimize-section__link-wrapper {
   max-width: 390px;
   display: flex;
   margin-left: auto;

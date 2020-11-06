@@ -125,17 +125,20 @@
   align-items: center;
 }
 
-.capacity-section__inner-item {
-  width: 8px;
-  height: 8px;
+.capacity-section__inner-item:not(:last-child) {
   margin-right: 8px;
+}
+
+.capacity-section__inner-button {
+  padding: 8px;
+  border: none;
   border-radius: 50%;
 }
 
-.capacity-section__inner-item:nth-child(1){
+.capacity-section__inner-item:nth-child(1) .capacity-section__inner-button {
   background-color: #036FC7;
 }
 
-.capacity-section__inner-item:nth-child(2){
+.capacity-section__inner-item:nth-child(2) .capacity-section__inner-button {
   background-color: rgba(3, 111, 199, 0.2);
 }
