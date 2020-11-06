@@ -703,6 +703,40 @@ img {
   background-image: url("../../img/increased.svg");
 }
 
+.chaos-section {
+  padding-bottom: 72px;
+}
+
+.chaos-section__heading {
+  margin: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: #212B31;
+}
+
+.chaos-section__text {
+  max-width: 1015px;
+  margin: 0;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #72787D;
+}
+
+.chaos-section__img {
+  max-width: 1015px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about {
   padding-top: 40px;
   padding-bottom: 72px;
