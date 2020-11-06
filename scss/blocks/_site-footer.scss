@@ -52,8 +52,8 @@
 
 .site-footer__social-logo {
   display: block;
-  &:hover{
-    fill: red;
+  &:hover path{
+    fill: $heading-color;
   }
 }
 

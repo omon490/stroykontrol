@@ -2063,8 +2063,8 @@ img {
   display: block;
 }
 
-.site-footer__social-logo:hover {
-  fill: red;
+.site-footer__social-logo:hover path {
+  fill: #212B31;
 }
 
 .site-footer__list-heading {
