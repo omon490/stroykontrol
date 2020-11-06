@@ -1,0 +1,51 @@
+
+.intro-item {
+  text-align: center;
+
+  &::before{
+    content: "";
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+}
+
+.intro-item__heading {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: $heading-color;
+}
+
+.intro-item__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: $text-color;
+}
+
+.intro-item--efficiency {
+  &::before{
+    background-image: url("../../img/efficiency.svg");
+  }
+}
+
+.intro-item--reducing {
+  &::before{
+    background-image: url("../../img/reducing.svg");
+  }
+}
+
+.intro-item--increased {
+  &::before{
+    background-image: url("../../img/increased.svg");
+  }
+}

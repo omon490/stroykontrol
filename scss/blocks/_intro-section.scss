@@ -1,0 +1,39 @@
+
+.intro-section {
+  padding-top: 75px;
+  padding-bottom: 145px;
+}
+
+.intro-section__heading {
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  color: $heading-color;
+}
+
+.intro-section__img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 85px;
+  margin-bottom: 148px;
+  display: block;
+  width: 1040px;
+  height: 422px;
+}
+
+.intro-section__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.intro-section__item {
+  max-width: 325px;
+  margin-right: 40px;
+}
